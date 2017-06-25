@@ -1,58 +1,144 @@
-h1{
-   text-align:left;
-   }
-   h6{
-     margin-top: 0;
-   }
-   #list{
-     width:100%;
-     margin: auto;
-   }
-   #border{
-     width:100%;
-   }
-   #right{
-     text-align: right;
-   }
-   #title{
-     text-align:left;
-     margin-bottom: 10px;
-     float:left;
-     font-family: 'Domine', serif;
-   }
-   #foot_tag{
-     text-align: center;
-   }
 
-#logo{
-  margin-top: : 200px;
-  margin-right: 10px;
-
+* {
+  outline: 1pt solid black;
 }
-#delicious{
+
+h1 {
+   text-align:left;
+   margin-top: 0;
+   margin-left: 20px;
+}
+
+h6 {
+  margin-top: 0;
+  margin-left: 20px;
+  font-size: 40%;
+}
+
+h5 {
+  text-align: right;
+}
+
+#logo {
+  margin-top: : auto;
+  margin-left: 0px;
+  border: 10px;
+  align:left;
+  display: block;
+  padding-top:5px;
+  padding-left: 30px;
+}
+
+#delicious {
   font-family:'Lobster', cursive;
   margin-top: 0;
   margin-bottom: 0;
 }
-#chocopizza {
-  width:100%;
-  height:100%;
-  padding:0;
-  border:0;
-  margin:auto;
+
+#right {
+  text-align: right;
+  border-right:200px;
 }
+
+#title {
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  /*float:right;*/
+  font-family: 'Domine', serif;
+  padding :0px;
+
+}
+
+#note {
+  margin-top: 0px;
+  margin-left: 25px;
+  text-align: left;
+  /*position: relative;*/
+}
+
+#border {
+  width:100%;
+  align:center;
+}
+
+#printer {
+  margin-top: 25px;
+  /*margin-left: 50px;*/
+  padding-left: 30px;
+  align: right;
+  display: block;
+  float: right;
+}
+
+#chocopizza {
+  width:90%;
+  height:90%;
+  padding:0;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#text {
+  text-indent: 2em;
+  margin-left: 30px;
+  margin-right: 90px;
+}
+
+form {
+  background-image: url("../lab-assets/list-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 92% 90%;
+  font-family: "Comic Sans MS", cursive;
+  padding: 30px 30px 30px 30px;
+  /*margin-top: 30px;*/
+  margin-left: 30px;
+  font-size: 20px;
+  width: 500px;
+  height:200px;
+}
+
+#form-left {
+  width: 50%;
+  float: left;
+  /*margin-left: 0px;*/
+  /*padding-right: 0px;*/
+}
+
+#form-right {
+  width: 50%;
+  float: right;
+}
+
+#profilepic {
+ align: center;
+ margin-left: 35px;
+}
+
+#foot_tag {
+  text-align: center;
+}
+
 button{
   background-color: #f47142;
   font-size:20px;
   text-align: center;
 }
 
+.row,
+.column {
+  box-sizing: border-box;
+}
+
 .row::before,
 .row::after {
   content: "";
+  display: table;
 }
 
-row::after {
+.row::after {
   clear:both;
 }
 
@@ -61,7 +147,9 @@ row::after {
   float: left;
 }
 
-col-1 {
+/*one column is 8.33% wide*/
+
+.col-1 {
   width: 8.33%;
 }
 
@@ -74,37 +162,37 @@ col-1 {
 }
 
 .col-4 {
-  width: 33.32%;
+  width: 33.32%
 }
 
 .col-5 {
-  width: 41.65%;
+  width: 41.65%
 }
 
 .col-6 {
-  width: 49.98%;
+  width: 49.98%
 }
 
 .col-7 {
-  width: 58.3%;
+  width: 58.3%
 }
 
 .col-8 {
-  width: 66.66%;
+  width: 66.66%
 }
 
 .col-9 {
-  width: 74.97%;
+  width: 74.97%
 }
 
 .col-10 {
-  width: 83.3%;
+  width: 83.3%
 }
 
 .col-11 {
-  width: 91.66%;
+  width: 91.66%
 }
 
 .col-12 {
-  width: 100%;
+  width: 100%
 }
