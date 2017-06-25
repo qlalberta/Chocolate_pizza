@@ -1,12 +1,55 @@
-.page-info {
-  background-color: white;
-  padding: 20px;
+h1{
+   text-align:left;
+   }
+   h6{
+     margin-top: 0;
+   }
+   #list{
+     width:100%;
+     margin: auto;
+   }
+   #border{
+     width:100%;
+   }
+   #right{
+     text-align: right;
+   }
+   #title{
+     text-align:left;
+     margin-bottom: 10px;
+     float:left;
+     font-family: 'Domine', serif;
+   }
+   #foot_tag{
+     text-align: center;
+   }
+
+#logo{
+  margin-top: : 200px;
+  margin-right: 10px;
+
+}
+#delicious{
+  font-family:'Lobster', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#chocopizza {
+  width:100%;
+  height:100%;
+  padding:0;
+  border:0;
+  margin:auto;
+}
+button{
+  background-color: #f47142;
+  font-size:20px;
+  text-align: center;
 }
 
-row,
-.column {
-  box-sizing: border-box;
-  padding: 5 px;
+.row::before,
+.row::after {
+  content: "";
 }
 
 row::after {
